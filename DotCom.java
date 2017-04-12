@@ -7,8 +7,17 @@ public class DotCom {
 
 	int numOfHits = 0;
 
+	String name = null;
+
+	/* A setter method that updates the a DotCom's location.
+	 * (Random location provided by the GameHelper placeDotCom() method. */
 	public void setLocationCells(ArrayList<String> locs) {
 		locationCells = locs;
+	}
+
+	/* Setter method for each Dot Com's name. */
+	public void setName(String newName) {
+		name = newName;
 	}
 
 	public String checkYourself(String userInput) {
@@ -30,7 +39,7 @@ public class DotCom {
 			}
 		}
 
-		return result;
+		return result; // return "miss" or "hit" or "kill"
 	}
 
 }
