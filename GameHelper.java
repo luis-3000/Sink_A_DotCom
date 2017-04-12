@@ -89,17 +89,50 @@ public class GameHelper {
 }
 /* SAMPLE RUN
 
-Joses-MacBook-Pro:SinkADotComGame joseluiscastillo$ javac Game.java
-Joses-MacBook-Pro:SinkADotComGame joseluiscastillo$ java Game
+Joses-MacBook-Pro:SinkADotComGame joseluiscastillo$ javac DotComBust.java
+Joses-MacBook-Pro:SinkADotComGame joseluiscastillo$ java DotComBust
+Game instructions: 
+Your goal is to sink three dot coms.
+facebook.com, Microsoft.com, Google.com
+Try to sink them all in the fewest number of guesses.
+ Coordinate  1 = c0
+ Coordinate  2 = c1
+ Coordinate  3 = c2
+ Coordinate  1 = a6
+ Coordinate  2 = b6
+ Coordinate  3 = c6
+ Coordinate  1 = g3
+ Coordinate  2 = g4
+ Coordinate  3 = g5
 
-Enter a number:  1
-miss
-Enter a number:  2
+Enter a guess:  c0
 hit
-Enter a number:  3
+
+Enter a guess:  c1
 hit
-Enter a number:  4
+
+Enter a guess:  c2
 kill
-You took 4 guesses.
+
+Enter a guess:  a6
+hit
+
+Enter a guess:  b6
+hit
+
+Enter a guess:  c6
+kill
+
+Enter a guess:  g3
+hit
+
+Enter a guess:  g4
+hit
+
+Enter a guess:  g5
+kill
+All Dot Coms are dead! your stocks for those companies is now worthless.
+It only took you  9 guesses.
+You got out before your options sank.
 
 */
